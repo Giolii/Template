@@ -12,5 +12,10 @@ export default [
   {
     languageOptions: { globals: globals.browser },
   },
+  {
+    compilerOptions: {
+      noUnusedLocals: false,
+    },
+  },
   pluginJs.configs.recommended,
 ];
